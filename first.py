@@ -1,8 +1,4 @@
-num1=int(input("Enter the first no.: "))
-num2=int(input("Enter the second no.: "))
+text = "Python Programming"
 
-sum = num1+num2
-print ("sum of no is= ", sum)
-avg = sum/2
-
-print("Average of the no. is= ", avg)
+print("Python" in text)      # True
+print("Java" not in text)    # True
