@@ -23,6 +23,8 @@ void test(int result){
 
 }
 int main(){
+    cout<<"The time complixity of binary search is = 'log n' \n";
+
     int n;
     cout<<"Enter the size of array: ";
     cin>>n;
@@ -36,7 +38,8 @@ int main(){
     cin>>e;
 
    test(binarysearch(arr,n,e));
-
+   
+   
 
     return 0;
 }
